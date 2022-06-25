@@ -9,6 +9,7 @@ const Step = lazy(() => import('./Components/Step'));
 
 
 
+
 const App = () => (
   <Router>
     <Suspense fallback={<div>Mengko Disit dela...</div>}>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/About" element={<About />} />
         <Route path="/Mlbb" element={<Mlbb />} />
         <Route path="/Step" element={<Step />} />
+
 
 
       </Routes>
